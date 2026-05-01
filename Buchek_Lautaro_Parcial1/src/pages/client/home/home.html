@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>FoodStore-Client</title>
+</head>
+<header class="header">
+            <h1>!Fs</h1>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="#" rel="noopener noreferrer">Inicio</a></li>
+                    <li><a href="#" rel="noopener noreferrer">Mis Pedidos</a></li>
+                    <li><a href="#" rel="noopener noreferrer">Carrito</a></li>
+                    <li><a href="#"  rel="noopener noreferrer">Panel Admin</a></li>
+                    <li><button id="logoutButton">Logout</button></li>
+                </ul>
+            </nav>      
+    </header>
+    <div class="contenedor_principal">
+        <aside class="categorias">
+        <h3>Categorías</h3>
+        <ul id="lista-categorias"></ul>
+        </aside>
+        <main class="contenedor_secundario">
+            <form class="busqueda_productos">
+                <label for="producto"></label>
+                <input type="text" name="producto" id="producto" placeholder="Buscar Productos" required>
+                <button  class="buscar_boton" type="submit">BUSCAR</button> 
+            </form>
+            <h2 id="prod_destacados">Productos Destacados</h2>
+            <section id="contenedor-productos"></section>
+        
+        </main>
+    </div>
+    <footer>
+        <p class="p_footer">Food Store. Todos los derechos reservados</p>
+        <p class="p_footer">Información de contacto: <a href="#" target="_blank" rel="noopener noreferrer">info@foodstore.com</a></p>
+
+    </footer>
+    <script src="/src/js/data.js" type="module"></script>
+    <script src="/src/js/main.js" type="module"></script>    
+    <script type="module" src="./home.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Vista Carrito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <header class="header">
+            <h1>!Fs</h1>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/src/pages/store/home/home.html" rel="noopener noreferrer">Inicio</a></li>
+                    <li><a href="#">Mis Pedidos</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="#">Panel Admin</a></li>
+                    <li><button id="logoutButton">Cerrar sesión</button></li>
+                </ul>
+            </nav>      
+    </header>
+
+    <h2 class="titulo-carrito">Mi Carrito</h2>
+    <main class="contenedor-carrito">
+        <div class="carrito" id="carrito">
+            <div class="producto-carrito">
+                <p id="carrito-vacio" style="display: none;">
+                    Tu carrito está vacío
+                </p>
+
+            </div>
+        </div>
+        <div class="resumen-carrito">
+            <div class="resumen-pedido">
+                <h2 class="resumen-titulo">Resumen del Pedido</h2>
+                <div class="subtotal-envio">
+                    <p class="subtotal">Subtotal</p>
+                    <p id="subtotal"></p>
+                </div>
+                <div class="subtotal-envio">
+                    <p class="envio">Envío</p>
+                    <p id="envio"></p>
+                </div>
+                <h2 id="total-carrito"></h2>
+                <button id="checkout" type="button">Proceder al Pago</button>
+                <button id="vaciar-carrito" type="button">Vaciar Carrito</button>
+
+            </div>
+            
+        </div>
+
+    </main>
+    
+    <footer>
+        <p class="p_footer">Food Store. Todos los derechos reservados</p>
+        <p class="p_footer">Información de contacto: <a href="#" rel="noopener noreferrer">info@foodstore.com</a></p>
+
+    </footer>   
+    <script type="module" src="cart.ts"></script>
+
+</body>
+</html>
