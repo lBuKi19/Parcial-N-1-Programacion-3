@@ -21,7 +21,7 @@ Las funcionalidades necesarias desarrolladas para los elementos de la homepage s
 INSTRUCCIONES PARA CORRER EL PROYECTO
 
 Requisitos previos: instalar node.js y pnpm
-- Clonar repositorio: git clone https://github.com/IBuKi19/Parcial-N-1-Programacion-3.git
+- Clonar repositorio: git clone https://github.com/lBuKi19/Parcial-N-1-Programacion-3.git
 - Acceder al directorio via:  cd nombre-proyecto
 - Instalar dependencias: pnpm install
 - Ejecutar servidor: pnpm dev
