@@ -32,7 +32,7 @@ form?.addEventListener("submit", (e: SubmitEvent) => {
     localStorage.setItem("users", JSON.stringify(users));
     localStorage.setItem("authUser", JSON.stringify(newUser));
     alert("Usuario registrado correctamente");
-    navigate("/src/pages/client/home/home.html");
+    navigate("/src/pages/store/home/home.html");
     return;
   }  
   else {
